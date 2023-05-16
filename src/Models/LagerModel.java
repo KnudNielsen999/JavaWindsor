@@ -29,7 +29,11 @@ public class LagerModel {
     }
 
     public void setVareMaengde(double vareMaengde) {
+
         this.vareMaengde = vareMaengde;
+        if (vareMaengde<=0){
+            System.out.println("bemærk minus lagerbeholdning");
+        }
     }
 
     public String getEnheder() {
@@ -126,8 +130,8 @@ public class LagerModel {
     }
 
     public  void  lagerTransaktioner(LagerModel trans, double forbrug1){
-        double forbrug=1;
-        trans.vareMaengde = trans.vareMaengde-forbrug1;
+
+        trans.setVareMaengde(getVareMaengde()-forbrug1);
         trans.sidste_Lagerbev_Dato= LocalDate.now();
         // gem trans reguleret med forbrug  + regulerings dato
     }
