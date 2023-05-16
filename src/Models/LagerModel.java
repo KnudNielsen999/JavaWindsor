@@ -15,6 +15,7 @@ public class LagerModel {
     private double bestiltAntal;
     private  LocalDate lagerOptaltDato;
 
+
     public String getVarenummer() {
         return varenummer;
     }
@@ -124,8 +125,11 @@ public class LagerModel {
         System.out.println("Her kommer varenummer visning");
     }
 
-    public  void  lagerTransaktioner(){
-
+    public  void  lagerTransaktioner(LagerModel trans, double forbrug1){
+        double forbrug=1;
+        trans.vareMaengde = trans.vareMaengde-forbrug1;
+        trans.sidste_Lagerbev_Dato= LocalDate.now();
+        // gem trans reguleret med forbrug  + regulerings dato
     }
 
     public  void lagerDataReguleringer(){

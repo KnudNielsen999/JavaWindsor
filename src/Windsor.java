@@ -19,5 +19,7 @@ public class Windsor {
         }
         System.out.println("\n");
         lm1.varenummerVisning();
+        lm1.lagerTransaktioner(lm1,2);
+        System.out.println(lm1);
     }
 }
