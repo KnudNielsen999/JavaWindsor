@@ -15,6 +15,15 @@ public class LagerModel {
     private double bestiltAntal;
     private  LocalDate lagerOptaltDato;
 
+    public LagerModel() {
+
+    }
+
+    public LagerModel(String varenummer, double vareMaengde, String enheder) {
+        this.varenummer = varenummer;
+        this.vareMaengde = vareMaengde;
+        this.enheder = enheder;
+    }
 
     public String getVarenummer() {
         return varenummer;

@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c074bee1-ce71-4efb-9669-05da501750ef" name="Changes" comment="opdateret 16/5-2023">
+    <list default="true" id="c074bee1-ce71-4efb-9669-05da501750ef" name="Changes" comment=" anden opdatering 16/5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Models/LagerModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/LagerModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Windsor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Windsor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684225959865</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary=" anden opdatering 16/5">
+      <created>1684227767234</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684227767234</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -174,6 +180,7 @@
     <MESSAGE value="dette er en test" />
     <MESSAGE value="dette er en test222" />
     <MESSAGE value="opdateret 16/5-2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="opdateret 16/5-2023" />
+    <MESSAGE value=" anden opdatering 16/5" />
+    <option name="LAST_COMMIT_MESSAGE" value=" anden opdatering 16/5" />
   </component>
 </project>
